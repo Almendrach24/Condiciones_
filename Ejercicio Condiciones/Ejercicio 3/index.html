@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dígitos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="titulo">Ingresa el password:</h1>
+
+    <div class="estilosnumeros">
+    <label for="numeros"></label>
+    <select name="numeros" id="numero1">
+        <option value="2">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="2">3</option>
+        <option value="1">4</option>
+        <option value="2">5</option>
+        <option value="2">6</option>
+        <option value="2">7</option>
+        <option value="2">8</option>
+        <option value="2">9</option>
+        
+        
+    </select>
+
+    <label for="numeros"></label>
+    <select name="numeros" id="numero2">
+        <option value="2">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="2">3</option>
+        <option value="1">4</option>
+        <option value="2">5</option>
+        <option value="2">6</option>
+        <option value="2">7</option>
+        <option value="2">8</option>
+        <option value="2">9</option>
+    
+    </select>
+
+    <label for="numeros"></label>
+    <select name="numeros" id="numero3">
+        <option value="2">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="2">3</option>
+        <option value="1">4</option>
+        <option value="2">5</option>
+        <option value="2">6</option>
+        <option value="2">7</option>
+        <option value="2">8</option>
+        <option value="2">9</option>
+    
+    </select>
+
+</div>
+
+    <div class="boton">
+        <button onclick="
+
+        var numero1 = Number(document.getElementById('numero1').value);
+        var numero2 = Number(document.getElementById('numero2').value);
+        var numero3 = Number(document.getElementById('numero3').value);
+
+        var result = numero1 && numero2 && numero3 ;
+
+
+            value = document.querySelector('#numero1, numero2, numero3').value
+            if (numero1 == 9, numero2 == 1, numero3 == 1 ){
+            par = document.querySelector('#result')
+            par.innerHTML = 'password 1 correcto';
+            }
+
+            else{
+            par = document.querySelector('#result')
+            par.innerHTML = 'incorrecto';    
+            }
+            
+            "
+
+        >Ingresar</button>
+    </div>
+    <p class="texto" id="result"></p>
+    <p class="texto" id="result2"></p>
+    <p class="texto" id="result3"></p>
+</body>
+</html>

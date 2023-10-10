@@ -1,0 +1,26 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    
+} 
+
+.estilosnumeros{
+    display: flex;
+    justify-content: center;
+}
+
+.ingresar{
+    display: flex;
+    text-align: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}

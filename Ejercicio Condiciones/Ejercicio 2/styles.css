@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.main{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+    height: 100%;
+}
+
+.estilo_input1{
+    display: flex;
+    justify-content: center;
+}
+
+.estilo_input2{
+    display: flex;
+    justify-content: center;
+}
+
+.estilo_input3{
+    display: flex;
+    justify-content: center;
+}
+   
+.boton{
+    display: flex;
+    gap:15px;
+    justify-content: end;
+}
+
+.texto{
+    display: flex;
+    align-content: center;
+    font-size: 20px;
+}

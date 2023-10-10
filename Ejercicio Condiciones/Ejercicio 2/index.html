@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+        <div>
+            <img src="assets/imagenes/Cinthya.jpg" alt="cinthya">
+            <input id="sticker1" class="estilo_input1" type="texto">
+        
+        </div>
+
+        <div>
+            <img src="assets/imagenes/ginger.jpg" alt="ginger">
+            <input id="sticker2" class="estilo_input2" type="texto">
+        
+        </div>
+
+        <div>
+            <img src="assets/imagenes/tommy.jpeg" alt="tommy">
+            <input id="sticker3" class="estilo_input3" type="texto">
+
+        </div>
+        
+        <div class="boton">
+            <p name="suma" class="texto" id="result"></p>
+            <br>
+            <button onclick="
+
+            var sticker1 = Number(document.getElementById('sticker1').value);
+            var sticker2 = Number(document.getElementById('sticker2').value);
+            var sticker3 = Number(document.getElementById('sticker3').value);
+        
+            var result = sticker1 + sticker2 + sticker3;
+        
+          value = document.querySelector('#sticker1, stickers2, stickers3').value
+          if (result <= 10){
+          par = document.querySelector('#result')
+          par.innerHTML = 'Llevas ' + (sticker1 + sticker2 + sticker3) + ' stickers';
+          }
+
+          if (result > 10){
+          par = document.querySelector('#result')
+          par.innerHTML = 'Llevas demasiados stickers'
+          }
+            "> Verificar </button>
+        </div>
+
+    </main>
+</body>
+</html>
